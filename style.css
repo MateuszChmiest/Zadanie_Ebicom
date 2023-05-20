@@ -65,12 +65,6 @@
 	margin: 0 10px 0 10px;
 }
 
-.dashed-line {
-	border-left: 1px dashed #6b7b83;
-	height: 18px;
-	margin: 0 10px;
-}
-
 .custom-switch .form-check-input {
 	background-color: #e2e2e2;
 }
@@ -100,8 +94,9 @@
 	background-size: contain;
 }
 
-.line {
+.dashed-line {
     width: 2px;
     height: 15px;
 	border-left: 1px dashed gray;
+	margin: 0 8px;
   }
