@@ -1,0 +1,107 @@
+:root {
+	--primary-color: #05a8ff;
+	--background-color: #f2f4f6;
+}
+
+* {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	box-sizing: border-box;
+}
+
+.primary {
+	background-color: var(--primary-color) !important;
+}
+
+.text-blue {
+	color: #05a8ff;
+}
+
+.text-gray {
+	color: #6b7b83;
+}
+
+.font-size-12 {
+	font-size: 12px;
+}
+
+.font-size-14 {
+	font-size: 14px !important;
+}
+
+.font-size-18 {
+	font-size: 18px !important;
+}
+
+.bg-color {
+	background-color: var(--background-color);
+}
+
+.bg-input {
+	background-color: #efefef !important;
+}
+
+.modal-header {
+	justify-content: center !important;
+}
+
+.button-close {
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	background-color: white;
+	border: none;
+	border-radius: 6px;
+}
+
+.row {
+	padding-right: 0 !important;
+}
+
+.line {
+	width: 1px;
+	height: 26px;
+	background-color: #d8d6de;
+	margin: 0 10px 0 10px;
+}
+
+.dashed-line {
+	border-left: 1px dashed #6b7b83;
+	height: 18px;
+	margin: 0 10px;
+}
+
+.custom-switch .form-check-input {
+	background-color: #e2e2e2;
+}
+
+.arrow-icons {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2px;
+  }
+
+.arrow-icons::before {
+	content: "";
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: url(./assets/chevron-up.svg) no-repeat center;
+	background-size: contain;
+}
+
+.arrow-icons::after {
+	content: "";
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: url(./assets/chevron-down.svg) no-repeat center;
+	background-size: contain;
+}
+
+.line {
+    width: 2px;
+    height: 15px;
+	border-left: 1px dashed gray;
+  }
